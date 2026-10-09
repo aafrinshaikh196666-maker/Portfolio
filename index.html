@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Primary Meta Tags -->
+  <title>Aafrin Shaikh | Frontend Developer Portfolio</title>
+  <meta name="title" content="Aafrin Shaikh | Frontend Developer Portfolio">
+  <meta name="description" content="Explore the portfolio of Aafrin Shaikh, a Computer Engineering student and aspiring Frontend Developer passionate about HTML, CSS, JavaScript, React, Python, and Artificial Intelligence.">
+  <meta name="author" content="Aafrin Shaikh">
+  <meta name="keywords" content="Aafrin Shaikh, Frontend Developer, Web Development, Computer Engineering, Portfolio, HTML, CSS, JavaScript, Python, React">
+  <meta name="theme-color" content="#050d1a">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://aafrinshaikh.github.io/">
+  <meta property="og:title" content="Aafrin Shaikh | Frontend Developer Portfolio">
+  <meta property="og:description" content="Explore the portfolio of Aafrin Shaikh, a Computer Engineering student and aspiring Frontend Developer passionate about HTML, CSS, JavaScript, React, Python, and Artificial Intelligence.">
+  <meta property="og:image" content="assets/images/myphoto.jpg">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://aafrinshaikh.github.io/">
+  <meta property="twitter:title" content="Aafrin Shaikh | Frontend Developer Portfolio">
+  <meta property="twitter:description" content="Explore the portfolio of Aafrin Shaikh, a Computer Engineering student and aspiring Frontend Developer passionate about HTML, CSS, JavaScript, React, Python, and Artificial Intelligence.">
+  <meta property="twitter:image" content="assets/images/myphoto.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="apple-touch-icon" href="assets/icons/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip to Content Link -->
+  <a href="#main-content" class="sr-only">Skip to main content</a>
+
+  <!-- Interactive Desktop Cursor Elements -->
+  <div class="custom-cursor" aria-hidden="true" id="customCursor"></div>
+  <div class="cursor-follower" aria-hidden="true" id="cursorFollower"></div>
+
+  <!-- Ambient Dynamic Gradient Mesh Orbs -->
+  <div class="bg-mesh-container" aria-hidden="true">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- ========================================================================
+       Navigation Bar
+       ======================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <!-- Brand Logo -->
+      <a href="#hero" class="brand-logo" aria-label="Aafrin Shaikh Home">
+        <div class="brand-badge" aria-hidden="true">AS</div>
+        <div class="brand-name">
+          <span>Aafrin Shaikh</span>
+          <span>&lt;developer /&gt;</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Toggle & CTA) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle Button -->
+        <button type="button" class="theme-toggle-btn" id="themeToggleBtn" aria-label="Toggle light/dark theme">
+          <!-- Sun Icon (shown in dark theme) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+          </svg>
+          <!-- Moon Icon (shown in light theme) -->
+          <svg class="moon-icon" style="display:none;" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
+          </svg>
+        </button>
+
+        <!-- Direct Hire Me / Connect Button -->
+        <a href="#contact" class="btn btn-primary btn-sm btn-hire">Hire Me</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-nav-toggle" id="mobileNavToggle" aria-expanded="false" aria-controls="mobileDrawer" aria-label="Open mobile menu">
+          <span class="hamburger-icon" aria-hidden="true">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <ul class="mobile-menu">
+      <li><a href="#hero" class="mobile-nav-link active">Home</a></li>
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#education" class="mobile-nav-link">Education</a></li>
+      <li><a href="#skills" class="mobile-nav-link">Skills &amp; Tools</a></li>
+      <li><a href="#projects" class="mobile-nav-link">Featured Projects</a></li>
+      <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+
+    <div class="mobile-drawer-footer">
+      <a href="assets/resume/AafrinResume.pdf" download="Aafrin_Shaikh_Resume.pdf" class="btn btn-secondary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+        </svg>
+        Download Resume
+      </a>
+      <a href="#contact" class="btn btn-primary mobile-drawer-cta">Let's Connect</a>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Main Content
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- 1. HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Text Content -->
+          <div class="hero-content reveal">
+            <!-- Status Badge -->
+            <div class="hero-badge">
+              <span class="pulse-dot" aria-hidden="true"></span>
+              <span class="hero-label">COMPUTER ENGINEERING STUDENT</span>
+            </div>
+
+            <!-- Greeting and Name -->
+            <h1 class="hero-title">
+              HELLO, I'M <span class="name-highlight">Aafrin Shaikh</span>
+            </h1>
+
+            <!-- Animated Typing Role -->
+            <div class="hero-role-wrapper" aria-live="polite">
+              <span>Aspiring</span>
+              <span class="typing-text" id="typewriter">Frontend Developer</span>
+            </div>
+
+            <!-- Supporting Text -->
+            <p class="hero-desc">
+              Building engaging digital experiences through creativity, code, and continuous learning. Focused on turning concepts into responsive, accessible, and high-performance web applications.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                Explore My Projects
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                Get In Touch
+              </a>
+              <a href="assets/resume/AafrinResume.pdf" download="Aafrin_Shaikh_Resume.pdf" class="btn btn-outline" id="heroResumeBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                </svg>
+                Download Resume
+              </a>
+            </div>
+
+            <!-- Social Links -->
+            <div class="hero-socials">
+              <span class="hero-social-label">Find me on:</span>
+              <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/aafrin-shaikh-96bb1b325/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn Profile">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </a>
+              <a href="mailto:aafrinshaikh1966@gmail.com" class="social-icon-btn" aria-label="Email Aafrin">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual & Portrait Frame -->
+          <div class="hero-visual reveal delay-1">
+            <div class="visual-ambient-ring" aria-hidden="true"></div>
+            <div class="visual-ambient-ring-2" aria-hidden="true"></div>
+
+            <div class="avatar-frame">
+              <div class="avatar-inner">
+                <img src="assets/images/myphoto.jpg" 
+                     alt="Aafrin Shaikh - Aspiring Frontend Developer" 
+                     class="avatar-img"
+                     id="profilePhoto"
+                     onerror="this.style.display='none'; document.getElementById('avatarFallback').style.display='flex';"
+                     loading="eager">
+                <div class="avatar-fallback" id="avatarFallback" style="display:none;" aria-hidden="true">
+                  <span>AS</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Floating Status Tag -->
+            <div class="floating-stat-badge">
+              <div class="floating-stat-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/>
+                </svg>
+              </div>
+              <div class="floating-stat-text">
+                <span class="floating-stat-title">3rd-Year Undergraduate</span>
+                <span class="floating-stat-desc">Computer Engineering &bull; 2028</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ABOUT ME SECTION -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by Curiosity, Crafting Clean Code</h2>
+          <p class="section-subtitle">A glimpse into my background, passions, and core motivations as an aspiring developer.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Biography Card -->
+          <div class="glass-panel about-bio-card reveal">
+            <p>
+              I'm Aafrin Shaikh, a third-year Computer Engineering student at Ajeenkya DY Patil School of Engineering, passionate about frontend development and building engaging digital experiences.
+            </p>
+            <p>
+              I enjoy transforming ideas into interactive, user-friendly websites using HTML, CSS, JavaScript, and React.js. Alongside web development, I explore Python, Artificial Intelligence, and modern development tools.
+            </p>
+            <p>
+              My journey in technology is driven by curiosity, creativity, and continuous learning. My goal is to become a skilled Frontend Developer who creates clean, accessible, and meaningful digital solutions.
+            </p>
+
+            <div class="about-meta-list">
+              <div class="about-meta-item">
+                <span class="about-meta-label">Location</span>
+                <span class="about-meta-value">Pune, Maharashtra, India</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Degree</span>
+                <span class="about-meta-value">B.E. Computer Engineering</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Institution</span>
+                <span class="about-meta-value">Ajeenkya DY Patil School of Engg.</span>
+              </div>
+              <div class="about-meta-item">
+                <span class="about-meta-label">Career Target</span>
+                <span class="about-meta-value">Frontend Developer Internship / Role</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Highlight Cards -->
+          <div class="about-highlights">
+            <!-- Highlight 1 -->
+            <div class="glass-panel highlight-card reveal delay-1">
+              <div class="highlight-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/>
+                </svg>
+              </div>
+              <h3 class="highlight-title">Computer Engineering</h3>
+              <p class="highlight-desc">Strong foundation in computer science core principles, algorithms, and systematic problem solving.</p>
+            </div>
+
+            <!-- Highlight 2 -->
+            <div class="glass-panel highlight-card reveal delay-2">
+              <div class="highlight-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                </svg>
+              </div>
+              <h3 class="highlight-title">Frontend Development</h3>
+              <p class="highlight-desc">Crafting responsive, intuitive, and accessible user interfaces with clean HTML5, CSS3, JavaScript, and React.</p>
+            </div>
+
+            <!-- Highlight 3 -->
+            <div class="glass-panel highlight-card reveal delay-3">
+              <div class="highlight-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <h3 class="highlight-title">Artificial Intelligence</h3>
+              <p class="highlight-desc">Exploring Python-driven machine learning, computer vision models, and intelligent developer tooling.</p>
+            </div>
+
+            <!-- Highlight 4 -->
+            <div class="glass-panel highlight-card reveal delay-4">
+              <div class="highlight-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                </svg>
+              </div>
+              <h3 class="highlight-title">Continuous Learning</h3>
+              <p class="highlight-desc">Dedicated daily habit of self-driven study, competitive programming practice, and hands-on project creation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. EDUCATION SECTION -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Academic Background</span>
+          <h2 class="section-title">Education &amp; Qualifications</h2>
+          <p class="section-subtitle">Academic timeline and key areas of study in Computer Engineering.</p>
+        </div>
+
+        <div class="education-container">
+          <div class="timeline">
+            <!-- Timeline Item 1: B.E. Degree -->
+            <div class="timeline-item reveal">
+              <div class="timeline-marker" aria-hidden="true">
+                <div class="timeline-marker-dot"></div>
+              </div>
+              <div class="glass-panel education-card">
+                <div class="education-header">
+                  <h3 class="education-degree">Bachelor of Engineering in Computer Engineering</h3>
+                  <span class="education-badge">CURRENT &bull; THIRD YEAR</span>
+                </div>
+                <div class="education-institution">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                  </svg>
+                  Ajeenkya DY Patil School of Engineering
+                </div>
+                <div class="education-meta-row">
+                  <div class="meta-chip">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                    <span>September 2024 – June 2028 (Expected)</span>
+                  </div>
+                  <div class="meta-chip">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    <span>Pune, Maharashtra, India</span>
+                  </div>
+                </div>
+                <div class="education-details">
+                  <div class="education-details-title">Key Academic Focus &amp; Coursework</div>
+                  <div class="coursework-tags">
+                    <span class="tag-badge">Data Structures &amp; Algorithms</span>
+                    <span class="tag-badge">Object-Oriented Programming</span>
+                    <span class="tag-badge">Web Engineering Fundamentals</span>
+                    <span class="tag-badge">Programming Principles</span>
+                    <span class="tag-badge">Problem Solving</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Timeline Item 2: HSC (12th) -->
+            <div class="timeline-item reveal delay-1">
+              <div class="timeline-marker" aria-hidden="true">
+                <div class="timeline-marker-dot"></div>
+              </div>
+              <div class="glass-panel education-card">
+                <div class="education-header">
+                  <h3 class="education-degree">Higher Secondary Certificate (12th), Science</h3>
+                  <span class="education-badge">COMPLETED</span>
+                </div>
+                <div class="education-institution">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"/>
+                  </svg>
+                  Mahatma Gandhi Vidyalaya and Junior College
+                </div>
+                <div class="education-meta-row">
+                  <div class="meta-chip">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                    </svg>
+                    <span>June 2023 – June 2024</span>
+                  </div>
+                  <div class="meta-chip">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                    </svg>
+                    <span>Rajgurunagar, Maharashtra</span>
+                  </div>
+                </div>
+                <div class="education-details">
+                  <div class="education-details-title">Discipline</div>
+                  <div class="coursework-tags">
+                    <span class="tag-badge">Science Stream</span>
+                    <span class="tag-badge">Physics, Chemistry &amp; Mathematics</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SKILLS & TOOLS SECTION -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Competencies</span>
+          <h2 class="section-title">Skills &amp; Technologies</h2>
+          <p class="section-subtitle">Real programming languages, frontend tools, core concepts, and exploratory fields.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Frontend Development -->
+          <div class="glass-panel skill-category-card reveal">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Frontend</h3>
+            </div>
+            <div class="skills-badge-wrap">
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#e34f26"><path d="M1.5 0h21l-1.91 21.563-8.59 2.437-8.59-2.437zm16.48 5.7h-11.96l.32 3.6h11.32l-.58 6.55-4.58 1.28-4.58-1.28-.27-3.05h-2.58l.49 5.56 6.94 1.93 6.94-1.93.99-11.16-.01-.01z"/></svg>
+                <span>HTML5</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#1572b6"><path d="M1.5 0h21l-1.91 21.563-8.59 2.437-8.59-2.437zm16.51 5.7h-12.02l.33 3.6h8.09l-.3 3.4-3.11.83-3.11-.83-.19-2.17h-2.58l.38 4.34 5.5 1.52 5.5-1.52.79-8.87h.72z"/></svg>
+                <span>CSS3</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#f7df1e"><path d="M0 0h24v24h-24z" fill="none"/><path d="M12 24c6.627 0 12-5.373 12-12s-5.373-12-12-12-12 5.373-12 12 5.373 12 12 12zm-3.32-8.56c-.39 0-.69-.16-.89-.47-.18-.32-.24-.76-.24-1.34v-5.26h2.24v5.33c0 .32.06.53.18.66.12.12.3.18.57.18.23 0 .44-.06.63-.19v1.94c-.45.1-.94.15-1.49.15zm4.8 0c-1.07 0-1.89-.31-2.43-.93-.52-.63-.78-1.5-.78-2.61s.27-2 .81-2.62c.55-.63 1.37-.94 2.45-.94.75 0 1.37.15 1.86.46v1.99c-.52-.39-1.12-.59-1.81-.59-.51 0-.91.14-1.19.42-.27.27-.41.69-.41 1.25s.14.99.41 1.28c.28.28.69.43 1.23.43.7 0 1.29-.2 1.76-.61v1.98c-.5.33-1.13.49-1.89.49z"/></svg>
+                <span>JavaScript</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#61dafb"><path d="M12 9.07c-1.62 0-2.93 1.31-2.93 2.93s1.31 2.93 2.93 2.93 2.93-1.31 2.93-2.93-1.31-2.93-2.93-2.93zm0-9.07c-3.1 0-5.83 1.4-7.44 3.73 1.24 1.15 2.84 2.14 4.7 2.9-1.22 1.63-1.96 3.66-1.96 5.87s.74 4.24 1.96 5.87c-1.86.76-3.46 1.75-4.7 2.9 1.61 2.33 4.34 3.73 7.44 3.73s5.83-1.4 7.44-3.73c-1.24-1.15-2.84-2.14-4.7-2.9 1.22-1.63 1.96-3.66 1.96-5.87s-.74-4.24-1.96-5.87c1.86-.76 3.46-1.75 4.7-2.9-1.61-2.33-4.34-3.73-7.44-3.73z"/></svg>
+                <span>React.js</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Programming Languages -->
+          <div class="glass-panel skill-category-card reveal delay-1">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming Languages</h3>
+            </div>
+            <div class="skills-badge-wrap">
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#3776ab"><path d="M11.914 0C5.82 0 6.2 2.656 6.2 2.656l.006 2.753h5.81v.825H3.84S0 5.787 0 11.905c0 6.12 3.35 5.908 3.35 5.908h2.002v-2.822s-.108-3.35 3.284-3.35h5.645s3.176.05 3.176-3.082V3.083S18.006 0 11.914 0zm-3.08 1.838a1.05 1.05 0 1 1 0 2.1 1.05 1.05 0 0 1 0-2.1zm3.252 22.162c6.094 0 5.714-2.656 5.714-2.656l-.006-2.753h-5.81v-.825h8.176s3.84.447 3.84-5.672c0-6.118-3.35-5.908-3.35-5.908h-2.002v2.822s.108 3.35-3.284 3.35H8.709s-3.176-.05-3.176 3.082v5.474s-.542 3.083 5.55 3.083zm3.08-1.838a1.05 1.05 0 1 1 0-2.1 1.05 1.05 0 0 1 0 2.1z"/></svg>
+                <span>Python</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#e76f00"><path d="M0 12c0 6.627 5.373 12 12 12s12-5.373 12-12-5.373-12-12-12-12 5.373-12 12zm7.6-3.8c.8 0 1.5.3 2 .8l1.4-1.4c-.9-.9-2.1-1.4-3.4-1.4-2.8 0-5 2.2-5 5s2.2 5 5 5c1.3 0 2.5-.5 3.4-1.4l-1.4-1.4c-.5.5-1.2.8-2 .8-1.7 0-3-1.3-3-3s1.3-3 3-3z"/></svg>
+                <span>Java</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#a8b9cc"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.5c-2.48 0-4.5-2.02-4.5-4.5s2.02-4.5 4.5-4.5c1.19 0 2.28.47 3.09 1.23l-1.42 1.42C14.28 9.77 13.68 9.5 13 9.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5c.68 0 1.28-.27 1.67-.65l1.42 1.42c-.81.76-1.9 1.23-3.09 1.23z"/></svg>
+                <span>C</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#00599c"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5c-2.48 0-4.5-2.02-4.5-4.5s2.02-4.5 4.5-4.5c1.19 0 2.28.47 3.09 1.23l-1.42 1.42C12.28 9.77 11.68 9.5 11 9.5c-1.38 0-2.5 1.12-2.5 2.5s1.12 2.5 2.5 2.5c.68 0 1.28-.27 1.67-.65l1.42 1.42c-.81.76-1.9 1.23-3.09 1.23zm6.5-4.5h-1v1h-1v-1h-1v-1h1v-1h1v1h1v1zm3 0h-1v1h-1v-1h-1v-1h1v-1h1v1h1v1z"/></svg>
+                <span>C++</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: Tools & Platforms -->
+          <div class="glass-panel skill-category-card reveal delay-2">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Tools &amp; Workflow</h3>
+            </div>
+            <div class="skills-badge-wrap">
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#f05032"><path d="M23.546 10.93L13.067.452c-.604-.603-1.582-.603-2.188 0L8.708 2.627l2.76 2.76c.645-.215 1.379-.07 1.889.441.516.515.658 1.258.438 1.9l2.658 2.66c.645-.223 1.387-.078 1.9.435.721.72.721 1.884 0 2.604-.719.719-1.881.719-2.6 0-.539-.541-.674-1.337-.404-1.996L12.86 8.955v6.525c.176.086.342.203.488.348.718.721.718 1.884 0 2.604-.719.719-1.884.719-2.604 0-.719-.719-.719-1.883 0-2.604.18-.182.394-.312.629-.395V8.81c-.234-.082-.449-.213-.629-.395-.54-.539-.672-1.335-.404-1.991L7.575 3.66.454 10.781c-.605.604-.605 1.583 0 2.187l10.48 10.48c.604.604 1.581.604 2.186 0l10.426-10.425c.606-.603.606-1.582 0-2.187"/></svg>
+                <span>Git</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                <span>GitHub</span>
+              </div>
+              <div class="skill-badge">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#007acc"><path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zM18 13.565l-4.757-3.565L18 6.435v7.13z"/></svg>
+                <span>VS Code</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: Core Concepts -->
+          <div class="glass-panel skill-category-card reveal delay-3">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Core Concepts</h3>
+            </div>
+            <div class="skills-badge-wrap">
+              <div class="skill-badge"><span>Object-Oriented Programming</span></div>
+              <div class="skill-badge"><span>Data Structures</span></div>
+              <div class="skill-badge"><span>Algorithms</span></div>
+              <div class="skill-badge"><span>Web Development Principles</span></div>
+            </div>
+          </div>
+
+          <!-- Category 5: Interests & Exploration -->
+          <div class="glass-panel skill-category-card reveal delay-4">
+            <div class="category-header">
+              <div class="category-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                </svg>
+              </div>
+              <h3 class="category-title">Interests</h3>
+            </div>
+            <div class="skills-badge-wrap">
+              <div class="skill-badge"><span>Artificial Intelligence</span></div>
+              <div class="skill-badge"><span>AI Tools</span></div>
+              <div class="skill-badge"><span>Accessible UI Design</span></div>
+              <div class="skill-badge"><span>Performance Optimization</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FEATURED PROJECTS SHOWCASE -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Selected Works</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Real project implementations demonstrating problem-solving, UI engineering, and intelligent systems.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: ScamShield AI -->
+          <article class="glass-panel project-card reveal">
+            <div class="project-media">
+              <img src="assets/images/project-scamshield.svg" alt="ScamShield AI Architectural Preview" class="project-img" loading="lazy">
+              <span class="project-index-badge">PROJECT 01</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">ScamShield AI</h3>
+              <p class="project-desc">
+                An AI-powered tool designed to detect and prevent online scams by analyzing patterns in text and URLs.
+              </p>
+              <div class="project-tech-badges">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Machine Learning</span>
+                <span class="tech-tag">NLP</span>
+              </div>
+              <div class="project-features">
+                <div class="features-label">Key Features</div>
+                <ul class="features-list">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Real-time text analysis</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Phishing URL detection</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>User-friendly reporting dashboard</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn btn-secondary btn-sm open-modal-btn" data-project="scamshield">
+                  View Details
+                </button>
+                <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  GitHub Profile
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: ScholarTechies -->
+          <article class="glass-panel project-card reveal delay-1">
+            <div class="project-media">
+              <img src="assets/images/project-scholartechies.svg" alt="ScholarTechies Platform Interface Preview" class="project-img" loading="lazy">
+              <span class="project-index-badge">PROJECT 02</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">ScholarTechies</h3>
+              <p class="project-desc">
+                A collaborative platform for students to share academic resources, form study groups, and track learning progress.
+              </p>
+              <div class="project-tech-badges">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Firebase</span>
+              </div>
+              <div class="project-features">
+                <div class="features-label">Key Features</div>
+                <ul class="features-list">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Resource-sharing hub</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Study group formation</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Progress-tracking dashboards</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn btn-secondary btn-sm open-modal-btn" data-project="scholartechies">
+                  View Details
+                </button>
+                <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  GitHub Profile
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Drishti AI -->
+          <article class="glass-panel project-card reveal delay-2">
+            <div class="project-media">
+              <img src="assets/images/project-drishti.svg" alt="Drishti AI Computer Vision Preview" class="project-img" loading="lazy">
+              <span class="project-index-badge">PROJECT 03</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Drishti AI</h3>
+              <p class="project-desc">
+                A computer vision application focused on accessibility, providing real-time audio descriptions of visual surroundings.
+              </p>
+              <div class="project-tech-badges">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">OpenCV</span>
+                <span class="tech-tag">TTS Engine</span>
+                <span class="tech-tag">Accessibility</span>
+              </div>
+              <div class="project-features">
+                <div class="features-label">Key Features</div>
+                <ul class="features-list">
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Object detection</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Text-to-speech integration</span>
+                  </li>
+                  <li>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                    <span>Mobile-first interface</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn btn-secondary btn-sm open-modal-btn" data-project="drishti">
+                  View Details
+                </button>
+                <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  GitHub Profile
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CERTIFICATIONS & TRAINING SECTION -->
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Professional Growth</span>
+          <h2 class="section-title">Certifications &amp; Training</h2>
+          <p class="section-subtitle">Industry simulations and foundational technical qualifications.</p>
+        </div>
+
+        <div class="certifications-grid">
+          <!-- Cert 1: JPMorgan Chase -->
+          <div class="glass-panel cert-card reveal">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">Software Engineering Job Simulation</h3>
+                <span class="cert-issuer">JPMorgan Chase</span>
+              </div>
+              <span class="cert-year">2024</span>
+            </div>
+            <p class="cert-desc">
+              Completed virtual software engineering experience simulating real-world financial development scenarios, data feeds, and enterprise programming principles.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Verified Simulation</span>
+            </div>
+          </div>
+
+          <!-- Cert 2: Lloyds Banking Group -->
+          <div class="glass-panel cert-card reveal delay-1">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">UX Design Introduction Job Simulation</h3>
+                <span class="cert-issuer">Lloyds Banking Group</span>
+              </div>
+              <span class="cert-year">2024</span>
+            </div>
+            <p class="cert-desc">
+              Explored user experience design principles, user-centered methodologies, and how modern technical implementation directly aligns with user accessibility needs.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Verified Simulation</span>
+            </div>
+          </div>
+
+          <!-- Cert 3: Placement Preparation Programme -->
+          <div class="glass-panel cert-card reveal delay-2">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">Placement Preparation Programme</h3>
+                <span class="cert-issuer">Technical Training</span>
+              </div>
+            </div>
+            <p class="cert-desc">
+              Comprehensive training covering technical interview problems, core algorithmic aptitude, and structured problem-solving methodologies.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Completed Programme</span>
+            </div>
+          </div>
+
+          <!-- Cert 4: ICAT -->
+          <div class="glass-panel cert-card reveal delay-3">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">Internship Common Aptitude Test (ICAT)</h3>
+                <span class="cert-issuer">Aptitude Qualification</span>
+              </div>
+            </div>
+            <p class="cert-desc">
+              Qualified for internship placement opportunities through standardized testing in technical aptitude, logic, and analytical problem solving.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Qualified Candidate</span>
+            </div>
+          </div>
+
+          <!-- Cert 5: AI for Beginners -->
+          <div class="glass-panel cert-card reveal delay-4">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">AI for Beginners</h3>
+                <span class="cert-issuer">Online Learning</span>
+              </div>
+            </div>
+            <p class="cert-desc">
+              Acquired foundational understanding of modern artificial intelligence concepts, machine learning fundamentals, and intelligent system workflows.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Course Completed</span>
+            </div>
+          </div>
+
+          <!-- Cert 6: Programming Foundations -->
+          <div class="glass-panel cert-card reveal delay-5">
+            <div class="cert-header">
+              <div>
+                <h3 class="cert-title">Programming Foundations — Python &amp; OOP</h3>
+                <span class="cert-issuer">Core Fundamentals</span>
+              </div>
+            </div>
+            <p class="cert-desc">
+              Completed foundational coursework in Python syntax, modular coding practices, and Object-Oriented Programming (OOP) paradigms.
+            </p>
+            <div class="cert-status-badge">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+              <span>Course Completed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. RESUME DOWNLOAD SECTION -->
+    <section class="section" id="resume">
+      <div class="container">
+        <div class="resume-banner reveal">
+          <div class="resume-info">
+            <span class="section-tag">Official Resume</span>
+            <h2 class="resume-title">Interested in Working Together?</h2>
+            <p class="resume-desc">
+              Download my official two-page resume for a complete overview of my Computer Engineering coursework, technical skillset, job simulations, and coding problem-solving background.
+            </p>
+            <ul class="resume-features-list">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span>Third-Year B.E. Computer Engineering (Ajeenkya DY Patil)</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span>Frontend focus: HTML5, CSS3, JavaScript (ES6+), React.js</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                <span>JPMorgan Chase &amp; Lloyds Banking Group Job Simulations</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resume-actions-box">
+            <div class="pdf-icon-ring" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="pdf-filename">Aafrin_Shaikh_Resume.pdf</div>
+              <div class="pdf-filesize">Verified PDF Document &bull; 55.5 KB</div>
+            </div>
+            <div class="resume-btn-group">
+              <a href="assets/resume/AafrinResume.pdf" download="Aafrin_Shaikh_Resume.pdf" class="btn btn-primary" id="downloadResumeBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                </svg>
+                Download Resume PDF
+              </a>
+              <a href="assets/resume/AafrinResume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                View PDF in Browser
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. CONTACT SECTION -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Let's Build Something Together</h2>
+          <p class="section-subtitle">
+            I'm always interested in learning, collaborating, and exploring new opportunities in frontend development and technology.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Column -->
+          <div class="contact-info-col reveal">
+            <!-- Email -->
+            <a href="mailto:aafrinshaikh1966@gmail.com" class="contact-card-item">
+              <div class="contact-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="contact-item-label">Direct Email</span>
+                <span class="contact-item-value">aafrinshaikh1966@gmail.com</span>
+              </div>
+            </a>
+
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/aafrin-shaikh-96bb1b325/" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+              <div class="contact-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="contact-item-label">LinkedIn</span>
+                <span class="contact-item-value">linkedin.com/in/aafrin-shaikh-96bb1b325</span>
+              </div>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="contact-card-item">
+              <div class="contact-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="contact-item-label">GitHub</span>
+                <span class="contact-item-value">github.com/aafrinshaikh196666-maker</span>
+              </div>
+            </a>
+
+            <!-- Location -->
+            <div class="contact-card-item">
+              <div class="contact-icon-wrap" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <div class="contact-item-info">
+                <span class="contact-item-label">Current Base</span>
+                <span class="contact-item-value">Pune, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="glass-panel contact-form-card reveal delay-1">
+            <div id="formStatusAlert" class="form-status-alert" role="alert"></div>
+
+            <form id="contactForm" novalidate>
+              <!-- Honeypot anti-spam field -->
+              <input type="text" name="_gotcha" class="antispam-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+              <!-- Full Name Field -->
+              <div class="form-group">
+                <label for="contactName" class="form-label">
+                  <span>Full Name</span>
+                  <span aria-hidden="true">*</span>
+                </label>
+                <input type="text" id="contactName" name="name" class="form-control" placeholder="e.g. Priya Sharma" required minlength="2" autocomplete="name">
+                <span class="form-error-msg" id="nameError">Please enter your name (at least 2 characters).</span>
+              </div>
+
+              <!-- Email Field -->
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">
+                  <span>Email Address</span>
+                  <span aria-hidden="true">*</span>
+                </label>
+                <input type="email" id="contactEmail" name="email" class="form-control" placeholder="e.g. name@example.com" required autocomplete="email">
+                <span class="form-error-msg" id="emailError">Please enter a valid email address.</span>
+              </div>
+
+              <!-- Subject Field -->
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">
+                  <span>Subject</span>
+                  <span aria-hidden="true">*</span>
+                </label>
+                <input type="text" id="contactSubject" name="subject" class="form-control" placeholder="e.g. Frontend Internship / Collaboration Inquiry" required minlength="3">
+                <span class="form-error-msg" id="subjectError">Please provide a subject (at least 3 characters).</span>
+              </div>
+
+              <!-- Message Field -->
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">
+                  <span>Message</span>
+                  <span aria-hidden="true">*</span>
+                </label>
+                <textarea id="contactMessage" name="message" class="form-control" placeholder="Hello Aafrin, I would like to connect with you regarding..." required minlength="15"></textarea>
+                <span class="form-error-msg" id="messageError">Please enter your message (at least 15 characters).</span>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary" id="submitBtn" style="width: 100%;">
+                <span id="submitBtnText">Send Message</span>
+                <svg id="submitBtnIcon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       Project Details Modal Dialog
+       ======================================================================== -->
+  <div class="modal-overlay" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-card">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+        <div class="modal-meta-row" id="modalTags">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <div class="modal-content-body" id="modalBody">
+        <!-- Populated dynamically via JS -->
+      </div>
+
+      <div class="modal-actions" id="modalActions">
+        <button type="button" class="btn btn-secondary btn-sm" id="modalDismissBtn">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       Footer
+       ======================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <div class="brand-badge" aria-hidden="true">AS</div>
+            <div class="brand-name">
+              <span>Aafrin Shaikh</span>
+              <span>&lt;developer /&gt;</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Third-year Computer Engineering student building intuitive, clean, and accessible frontend experiences.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-nav-list">
+            <li><a href="#hero" class="footer-link">Home</a></li>
+            <li><a href="#about" class="footer-link">About Me</a></li>
+            <li><a href="#education" class="footer-link">Education</a></li>
+            <li><a href="#skills" class="footer-link">Skills &amp; Tools</a></li>
+            <li><a href="#projects" class="footer-link">Featured Projects</a></li>
+            <li><a href="#certifications" class="footer-link">Certifications</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <div class="footer-social-row">
+            <a href="https://github.com/aafrinshaikh196666-maker" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/aafrin-shaikh-96bb1b325/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            </a>
+            <a href="mailto:aafrinshaikh1966@gmail.com" class="social-icon-btn" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            </a>
+          </div>
+          <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">
+            Pune, Maharashtra, India
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aafrin Shaikh. All rights reserved. Crafted with semantic HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+        <p>Ajeenkya DY Patil School of Engineering &bull; Class of 2028</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top of page">
+    <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+    </svg>
+  </button>
+
+  <!-- Modular Vanilla JavaScript Application Logic -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" fill="none">
+  <defs>
+    <linearGradient id="st-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08142b"/>
+      <stop offset="60%" stop-color="#121b3d"/>
+      <stop offset="100%" stop-color="#1e1338"/>
+    </linearGradient>
+    <linearGradient id="st-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="st-card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="st-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="800" height="480" rx="16" fill="url(#st-bg)"/>
+
+  <!-- Background Isometric / Hex Dot Matrix -->
+  <g opacity="0.15" fill="#818cf8">
+    <circle cx="100" cy="80" r="2"/><circle cx="140" cy="80" r="2"/><circle cx="180" cy="80" r="2"/><circle cx="220" cy="80" r="2"/>
+    <circle cx="120" cy="110" r="2"/><circle cx="160" cy="110" r="2"/><circle cx="200" cy="110" r="2"/><circle cx="240" cy="110" r="2"/>
+    <circle cx="600" cy="380" r="2"/><circle cx="640" cy="380" r="2"/><circle cx="680" cy="380" r="2"/><circle cx="720" cy="380" r="2"/>
+    <circle cx="620" cy="410" r="2"/><circle cx="660" cy="410" r="2"/><circle cx="700" cy="410" r="2"/><circle cx="740" cy="410" r="2"/>
+  </g>
+
+  <!-- Central App Frame Mockup -->
+  <g transform="translate(140, 50)" filter="url(#st-glow)">
+    <rect width="520" height="320" rx="14" fill="#0f1f38" stroke="url(#st-grad)" stroke-width="2"/>
+    
+    <!-- Top Window Bar -->
+    <rect width="520" height="36" rx="14" fill="#142848"/>
+    <circle cx="22" cy="18" r="5" fill="#f87171"/>
+    <circle cx="38" cy="18" r="5" fill="#fbbf24"/>
+    <circle cx="54" cy="18" r="5" fill="#34d399"/>
+    <rect x="180" y="8" width="160" height="20" rx="6" fill="#0d1b30"/>
+    <text x="210" y="22" fill="#93c5fd" font-family="sans-serif" font-size="10" font-weight="600">scholartechies.web.app</text>
+    
+    <!-- Left Navigation Bar inside Mockup -->
+    <rect x="0" y="36" width="110" height="284" fill="#0b172a"/>
+    <rect x="14" y="55" width="82" height="24" rx="6" fill="#3b82f6" fill-opacity="0.25"/>
+    <text x="26" y="71" fill="#60a5fa" font-family="sans-serif" font-size="10" font-weight="600">📚 Notes Hub</text>
+    <text x="26" y="105" fill="#94a3b8" font-family="sans-serif" font-size="10">👥 Study Pods</text>
+    <text x="26" y="139" fill="#94a3b8" font-family="sans-serif" font-size="10">📈 Progress</text>
+    <text x="26" y="173" fill="#94a3b8" font-family="sans-serif" font-size="10">🔥 Quiz Arena</text>
+    <rect x="14" y="270" width="82" height="30" rx="6" fill="#1e293b"/>
+    <circle cx="30" cy="285" r="8" fill="#818cf8"/>
+    <text x="44" y="289" fill="#e2e8f0" font-family="sans-serif" font-size="9">Aafrin</text>
+
+    <!-- Content Workspace -->
+    <g transform="translate(125, 48)">
+      <!-- Search & Filter bar -->
+      <rect width="380" height="28" rx="6" fill="#162c4e"/>
+      <text x="14" y="18" fill="#64748b" font-family="sans-serif" font-size="10">🔍 Search shared semester notes, labs, DSA sheets...</text>
+      
+      <!-- Card 1: Data Structures Study Group -->
+      <g transform="translate(0, 40)">
+        <rect width="180" height="110" rx="8" fill="#122543" stroke="#2563eb" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="14" y="24" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">DSA Marathon 2026</text>
+        <text x="14" y="42" fill="#93c5fd" font-family="sans-serif" font-size="9">14 Active Peers &bull; Live Pod</text>
+        <!-- Stack avatars -->
+        <circle cx="22" cy="65" r="9" fill="#38bdf8"/>
+        <circle cx="36" cy="65" r="9" fill="#a855f7"/>
+        <circle cx="50" cy="65" r="9" fill="#34d399"/>
+        <text x="66" y="69" fill="#94a3b8" font-family="sans-serif" font-size="9">+11 others</text>
+        <rect x="14" y="85" width="152" height="6" rx="3" fill="#1e293b"/>
+        <rect x="14" y="85" width="115" height="6" rx="3" fill="#3b82f6"/>
+      </g>
+
+      <!-- Card 2: AI & Python Notes -->
+      <g transform="translate(195, 40)">
+        <rect width="180" height="110" rx="8" fill="#122543" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1"/>
+        <text x="14" y="24" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="700">AI / ML Lecture Hub</text>
+        <text x="14" y="42" fill="#c084fc" font-family="sans-serif" font-size="9">Updated 2 hrs ago &bull; 28 Files</text>
+        <rect x="14" y="58" width="60" height="18" rx="4" fill="#8b5cf6" fill-opacity="0.2"/>
+        <text x="20" y="70" fill="#d8b4fe" font-family="sans-serif" font-size="8">PDF &bull; CODE</text>
+        <rect x="14" y="85" width="152" height="18" rx="4" fill="#2563eb"/>
+        <text x="55" y="97" fill="#ffffff" font-family="sans-serif" font-size="9" font-weight="600">Open Resource</text>
+      </g>
+
+      <!-- Bottom Progress Strip -->
+      <g transform="translate(0, 162)">
+        <rect width="375" height="60" rx="8" fill="#122543" stroke="#334155" stroke-width="1"/>
+        <text x="16" y="22" fill="#e2e8f0" font-family="sans-serif" font-size="10" font-weight="600">Semester Goals &amp; Milestones</text>
+        <text x="16" y="42" fill="#94a3b8" font-family="sans-serif" font-size="9">Weekly practice streak: 5 days &bull; Firebase Sync</text>
+        <circle cx="340" cy="30" r="16" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="75 25"/>
+        <text x="331" y="34" fill="#38bdf8" font-family="sans-serif" font-size="9" font-weight="700">75%</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Title Badge -->
+  <g transform="translate(240, 395)">
+    <rect width="320" height="48" rx="24" fill="#0d1b33" stroke="url(#st-grad)" stroke-width="1.5"/>
+    <circle cx="30" cy="24" r="8" fill="#8b5cf6" fill-opacity="0.2"/>
+    <circle cx="30" cy="24" r="4" fill="#8b5cf6"/>
+    <text x="50" y="29" fill="#ffffff" font-family="sans-serif" font-weight="700" font-size="14" letter-spacing="1">SCHOLARTECHIES</text>
+    <text x="210" y="29" fill="#c084fc" font-family="monospace" font-size="11">JS &bull; FIREBASE</text>
+  </g>
+</svg>
