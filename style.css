@@ -1365,18 +1365,26 @@ button {
   position: relative;
   width: 100%;
   aspect-ratio: 16/10;
+  min-height: 200px;
   background-color: var(--bg-tertiary);
   overflow: hidden;
   border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.project-media svg,
 .project-img {
   width: 100%;
   height: 100%;
+  max-width: 100%;
   object-fit: cover;
+  display: block;
   transition: transform var(--transition-smooth);
 }
 
+.project-card:hover .project-media svg,
 .project-card:hover .project-img {
   transform: scale(1.04);
 }
